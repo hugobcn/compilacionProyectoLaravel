@@ -1,0 +1,172 @@
+
+form .avatar{
+    display: block;
+    margin-left: 25%;
+    width: 55px;
+}
+
+form .avatar2{
+    width: 55px;
+    margin-bottom:15px;
+}
+
+
+/* hacer un circulo , .pub_image .container-avatar2*/
+.navbar .container-avatar2
+{   
+    width: 35px;
+    height: 35px;
+    border-radius: 900px;
+    overflow: hidden;
+}
+/*,.pub_image .container-avatar2 */
+.navbar .container-avatar2 img
+{
+    height: 100%;
+    margin-left: -20%;
+    
+}
+
+.pub_image {
+    
+     margin-bottom: 25px;
+}
+
+
+.pub_image .container-avatar2{
+    float:left;
+     margin-right:15px;
+     width: 35px;
+    height: 35px;
+    border-radius: 900px;
+    overflow: hidden;
+}
+
+.pub_image .container-avatar2 img
+{
+    height: 100%;
+    margin-left: -20%;
+    
+}
+
+.pub_image .data-user{
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.pub_image .data-user a{
+    color: #444;
+}
+
+.pub_image .nickname{
+    color:gray;
+}
+/*imagen de  lista*/
+.image-container{
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.image-container img{
+    width: 100%;
+    
+}
+/*eliminar padding  default  car-body */
+.pub_image  .card-body{
+    padding: 0px;
+}
+
+/*descripcion de la imagen*/
+.pub_image .description{
+     padding: 20px;
+     padding-bottom: 0px;
+    
+}
+
+.pub_image .nickname{
+    color:gray;
+}
+
+
+/*comentarios y like*/
+
+.pub_image .btn-comentarios{
+    /*margin:  20px;*/
+    margin-top: 10px;
+    margin-left: 0px;
+    
+    
+}
+
+.likes {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+   
+    
+    
+}
+
+.likes img{
+    width: 20px;
+    
+}
+/*link de imagen a data detail.balde.php */
+.pub_image .data-user a{
+    color: #444;
+}
+/*formulario cometarios detail.blade.php*/
+.pub_image_detail .comments{
+    padding: 20px;
+}
+
+/*likes home.blade.php*/
+
+.likes{
+    float:left;
+    padding-left:20px;
+    padding-right: 10px;
+}
+
+.likes img{
+    width: 20px;
+}
+
+.number_likes{
+    color: gray;
+    font-size: 11px;
+}
+
+/*profile profile.blade.php*/
+
+.profile-user{
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.profile-user .container-avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 900px;
+    overflow: hidden;
+    float:left;
+}
+.profile-user .container-avatar img{
+   height: 100%;
+   margin-left: -20%;
+}
+
+.profile-user .user-info{
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+
+.btn-search{
+    margin-left: 0px;
+    padding-left: 0px;
+}
